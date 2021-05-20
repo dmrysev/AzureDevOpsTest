@@ -12,3 +12,6 @@ steps:
 - task: TestPipelineExt@0
   inputs:
     samplestring: 'Samurai'
+- task: TestPipelineExt@0
+  inputs:
+    samplestring: 'dude'
