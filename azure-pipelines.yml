@@ -15,3 +15,6 @@ steps:
 - task: TestPipelineExt@0
   inputs:
     samplestring: 'dude'
+- task: RunOrientBuild@3
+  inputs:
+    orientCommands: 'help'
